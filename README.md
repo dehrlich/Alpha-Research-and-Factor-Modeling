@@ -6,7 +6,6 @@
 2. To construct a portfolio of equities using the PCA model along with 5 alpha factors.
 3. The factors are evaluated using factor-weight returns, quantile analysis, Sharpe Ratio, and turnover analysis.
 4. To optimize the portfolio using the risk model and factors.
-    - ...
 
 ### The notebook is separated into three parts:
 1. The first part covers data collection and inspection, stock universe construction, fitting a PCA model, creating a statistical risk model based on calculating factor returns, covariance matrix, and idosyncratic variance matrix from the PCA model, and finally predicting portfolio risk based on the risk model.
@@ -18,7 +17,7 @@
 
 
     project_4.ipynb
-    | - Jupyter notebook containing all data collection, cleaning, and data frame construction, smart beta ETF/portfolio and benchmark index construction, projected returns calculation and comparison, and dynamic portfolio rebalancing and turnover cost calculation.
+    | - Jupyter notebook containing all data collection, cleaning, and data frame construction, PCA and risk model construction, alpha factor research, construction, and performance evaluation, and finally creating and evaluating an optimal portfolio to minimize risk and trade as close to the alphas as possible.
     helper.py
     |- helper file to abstract some data collection and import statements
     project_helper.py
