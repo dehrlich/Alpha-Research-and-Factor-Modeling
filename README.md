@@ -2,7 +2,7 @@
 
 ### Project Motivation:
 
-1. To build a statistical rick model using Principal Component Analysis (PCA).
+1. To build a statistical risk model using Principal Component Analysis (PCA).
 2. To construct a portfolio of equities using the PCA model along with 5 alpha factors.
 3. The factors are evaluated using factor-weight returns, quantile analysis, Sharpe Ratio, and turnover analysis.
 4. To optimize the portfolio using the risk model and factors.
